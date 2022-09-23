@@ -1,3 +1,14 @@
+"""
+
+Author : Shabari K S
+Created as Mini Project
+Download Link available in the README.md file
+if you need any help email to this mail address --> "2k21cse137@kiot.ac.in"
+
+
+"""
+
+
 from tkinter import *
 from tkinter import ttk,messagebox
 import customtkinter
