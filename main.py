@@ -58,7 +58,7 @@ def MainWindow():
 
 
             base_url = "http://api.openweathermap.org/data/2.5/onecall?lat="
-            complete_url = base_url + str(location.latitude) + "&lon=" + str(location.longitude) + "&exclude=hourly&unit=metric&appid=" + '9e2a7ecedfd1f757ed0dfd409f8d1c5a'
+            complete_url = base_url + str(location.latitude) + "&lon=" + str(location.longitude) + "&exclude=hourly&unit=metric&appid=" + 'Your api key'
             response = requests.get(complete_url)
             x = response.json()
             temp = x['current']['temp']
