@@ -214,7 +214,7 @@ def MainWindow():
             messagebox.showerror('Error',"Please Enter a City")
 
 
-    customtkinter.set_appearance_mode("System")
+    customtkinter.set_appearance_mode("dark")
     customtkinter.set_default_color_theme("blue")
 
     app = customtkinter.CTk()
